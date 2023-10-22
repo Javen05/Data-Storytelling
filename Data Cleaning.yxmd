@@ -197,7 +197,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_71f365ac0c21634c9eac91fc34ce6fdc~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_cae3fd65df7b994095450c41673c80f0~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -369,7 +369,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_f64b6327ffbb704f9c7295672ba63573~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_ec8333bab25dd94f895b7c0427c66d29~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -397,7 +397,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_e212b60bfe725848bdb1bcf1e52ddc66~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_e545db0ef4ff5d438b55cc3c986b8833~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -425,7 +425,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_6aeaceb53f6dcf4fbac5730cf4daf293~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_0cb44fa769eba34c8c595b88c843bb4b~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -545,7 +545,7 @@ Call Start - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_eec4af01bdebac43bf32a1206d7c9a92~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_44b20ec84a91c54e89653191dd22052d~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -573,7 +573,7 @@ Call Start - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_a9f91fa019ffc146a0a09c40f2dfb581~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_f89c98da509c6a43a46beab9e41b72ba~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -808,7 +808,7 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
     </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="906" y="138" />
+        <Position x="1002" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -830,9 +830,6 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
           <DefaultAnnotationText>call log 2021 cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -860,9 +857,6 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
           <DefaultAnnotationText>2021 walk-in cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -908,7 +902,7 @@ Call Start - Ascending</DefaultAnnotationText>
     </Node>
     <Node ToolID="49">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="918" y="294" />
+        <Position x="1026" y="294" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -930,9 +924,6 @@ Call Start - Ascending</DefaultAnnotationText>
           <DefaultAnnotationText>call log 2022 cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -1002,9 +993,6 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
           <DefaultAnnotationText>2022 walk-in cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
@@ -1027,6 +1015,42 @@ Start Time - Ascending</DefaultAnnotationText>
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="55">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="894" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Left([Customer ID], 1) != 'C' THEN 'C' + [Customer ID] ELSE [Customer ID] ENDIF&#xA;" field="Customer ID" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer ID = IF Left([Customer ID], 1) != 'C' THEN 'C' + [Customer ID] ELSE [Cu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="56">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="918" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Left([Customer ID], 1) != 'C' THEN 'C' + [Customer ID] ELSE [Customer ID] ENDIF&#xA;" field="Customer ID" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Customer ID = IF Left([Customer ID], 1) != 'C' THEN 'C' + [Customer ID] ELSE [Cu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
   </Nodes>
   <Connections>
@@ -1104,7 +1128,7 @@ Start Time - Ascending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="43" Connection="Input" />
+      <Destination ToolID="55" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="29" Connection="Output" />
@@ -1156,7 +1180,7 @@ Start Time - Ascending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="48" Connection="Output" />
-      <Destination ToolID="49" Connection="Input" />
+      <Destination ToolID="56" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="52" Connection="Output" />
@@ -1165,6 +1189,14 @@ Start Time - Ascending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="54" Connection="Output" />
       <Destination ToolID="53" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="55" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="56" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
