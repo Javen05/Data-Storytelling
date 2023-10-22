@@ -1,6 +1,26 @@
 <?xml version="1.0"?>
 <AlteryxDocument yxmdVer="2022.3">
   <Nodes>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxGuiToolkit.TextBox.TextBox">
+        <Position x="138" y="822" width="180" height="240" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Text>Project requires me to use Tableau to union, join, and probably create new column too, so can't use it here :c</Text>
+          <Font name="Arial" size="8.25" style="0" />
+          <TextColor name="Black" />
+          <FillColor name="White" />
+          <Shape shape="0" />
+          <Justification Justification="4" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+    </Node>
     <Node ToolID="1">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
         <Position x="138" y="138" />
@@ -170,80 +190,6 @@
         </MetaInfo>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="5">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
-        <Position x="810" y="582" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <Passwords />
-          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\Branch Location Singapore.csv</File>
-          <FormatSpecificOptions>
-            <HeaderRow>True</HeaderRow>
-            <IgnoreErrors>False</IgnoreErrors>
-            <AllowShareWrite>False</AllowShareWrite>
-            <ImportLine>1</ImportLine>
-            <FieldLen>254</FieldLen>
-            <SingleThreadRead>False</SingleThreadRead>
-            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
-            <Delimeter>,</Delimeter>
-            <QuoteRecordBreak>False</QuoteRecordBreak>
-            <CodePage>28591</CodePage>
-          </FormatSpecificOptions>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText>Branch Location Singapore.csv</DefaultAnnotationText>
-          <Left value="False" />
-        </Annotation>
-        <MetaInfo connection="Output">
-          <RecordInfo>
-            <Field name="Branch ID" size="254" source="File: C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\Branch Location Singapore.csv" type="V_String" />
-            <Field name="latitude" size="254" source="File: C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\Branch Location Singapore.csv" type="V_String" />
-            <Field name="longitude" size="254" source="File: C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\Branch Location Singapore.csv" type="V_String" />
-          </RecordInfo>
-        </MetaInfo>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
-    </Node>
-    <Node ToolID="6">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="822" y="210" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
-          <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
-    </Node>
-    <Node ToolID="7">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
-        <Position x="606" y="558" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <ByName_ErrorMode>Warning</ByName_ErrorMode>
-          <ByName_OutputMode>All</ByName_OutputMode>
-          <Mode>ByName</Mode>
-          <SetOutputOrder value="False" />
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
     </Node>
     <Node ToolID="10">
       <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
@@ -557,7 +503,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
     </Node>
     <Node ToolID="28">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="894" y="210" />
+        <Position x="798" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -841,7 +787,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
     </Node>
     <Node ToolID="40">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="702" y="558" />
+        <Position x="546" y="486" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -860,85 +806,13 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="41">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
-        <Position x="762" y="486" />
-      </GuiSettings>
-      <Properties>
-        <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_4704_19947c95c9c1b4448cea8ed870002dd8_\Engine_4704_cd736c8b88b2ad4387d417fcde7f3f87~.yxdb</TempFile>
-          <TempFileDataProfiling />
-          <Layout>
-            <ViewMode>Single</ViewMode>
-            <ViewSize value="100" />
-            <View1>
-              <DefaultTab>Profile</DefaultTab>
-              <Hints>
-                <Table />
-              </Hints>
-            </View1>
-            <View2 />
-          </Layout>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
-    </Node>
-    <Node ToolID="42">
-      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
-        <Position x="894" y="570" />
-      </GuiSettings>
-      <Properties>
-        <Configuration joinByRecordPos="False">
-          <JoinInfo connection="Left">
-            <Field field="Branch ID" />
-          </JoinInfo>
-          <JoinInfo connection="Right">
-            <Field field="Branch ID" />
-          </JoinInfo>
-          <SelectConfiguration>
-            <Configuration outputConnection="Join">
-              <OrderChanged value="False" />
-              <CommaDecimal value="False" />
-              <SelectFields>
-                <SelectField field="Left_Branch Area" selected="True" input="Left_" />
-                <SelectField field="Left_Customer ID" selected="True" input="Left_" />
-                <SelectField field="Left_Customer Age" selected="True" input="Left_" />
-                <SelectField field="Left_Customer Gender" selected="True" input="Left_" />
-                <SelectField field="Left_Waiting Time (min)" selected="True" input="Left_" />
-                <SelectField field="Left_Agent ID" selected="True" input="Left_" />
-                <SelectField field="Left_Reason" selected="True" input="Left_" />
-                <SelectField field="Left_Customer Satisfaction Rate" selected="True" input="Left_" />
-                <SelectField field="Left_Date" selected="True" input="Left_" />
-                <SelectField field="Left_Start Time" selected="True" input="Left_" />
-                <SelectField field="Left_End Time" selected="True" input="Left_" />
-                <SelectField field="Right_Branch ID" selected="True" input="Right_" />
-                <SelectField field="Right_latitude" selected="True" input="Right_" />
-                <SelectField field="Right_longitude" selected="True" input="Right_" />
-                <SelectField field="*Unknown" selected="False" />
-              </SelectFields>
-            </Configuration>
-          </SelectConfiguration>
-        </Configuration>
-        <Annotation DisplayMode="0">
-          <Name />
-          <DefaultAnnotationText />
-          <Left value="False" />
-        </Annotation>
-      </Properties>
-      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
-    </Node>
     <Node ToolID="43">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1182" y="210" />
+        <Position x="906" y="138" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\combined call log.csv</File>
+          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\call log 2021 cleaned.csv</File>
           <Passwords />
           <Disable>False</Disable>
           <FormatSpecificOptions>
@@ -953,19 +827,22 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>combined call log.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>call log 2021 cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
     <Node ToolID="44">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="1194" y="570" />
+        <Position x="762" y="486" />
       </GuiSettings>
       <Properties>
         <Configuration>
-          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\combined walk-in with location.csv</File>
+          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\2021 walk-in cleaned.csv</File>
           <Passwords />
           <Disable>False</Disable>
           <FormatSpecificOptions>
@@ -980,15 +857,88 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>combined walk-in with location.csv</DefaultAnnotationText>
+          <DefaultAnnotationText>2021 walk-in cleaned.csv</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
     </Node>
-    <Node ToolID="45">
+    <Node ToolID="47">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="654" y="486" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Date" order="Ascending" />
+            <Field field="Start Time" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending
+Start Time - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="810" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="Date" order="Ascending" />
+            <Field field="Call Start" order="Ascending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Date - Ascending
+Call Start - Ascending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="49">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="918" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\call log 2022 cleaned.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>call log 2022 cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="50">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1014" y="210" />
+        <Position x="186" y="882" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1007,30 +957,60 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="46">
+    <Node ToolID="52">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
-        <Position x="1086" y="570" />
+        <Position x="546" y="642" />
       </GuiSettings>
       <Properties>
         <Configuration>
           <FormulaFields>
-            <FormulaField expression="DateTimeDiff(DateTimeParse([End Time], &quot;%Y-%m-%d %H:%M:%S&quot;), DateTimeParse([Start Time], &quot;%Y-%m-%d %H:%M:%S&quot;), &quot;minutes&quot;)&#xA;" field="duration (mins)" size="4" type="Int32" />
-            <FormulaField expression="DateTimeFormat([Date], &quot;%b&quot;)&#xA;" field="month" size="256" type="V_String" />
-            <FormulaField expression="DateTimeFormat([Date], &quot;%U&quot;)&#xA;" field="week" size="256" type="V_String" />
-            <FormulaField expression="DateTimeFormat([Date], &quot;%A&quot;)&#xA;" field="day" size="256" type="V_String" />
+            <FormulaField expression="Left([Customer Gender], 1)&#xA;" field="Customer Gender" size="254" type="V_String" />
+            <FormulaField expression="Replace([Customer Age], &quot;Nov&quot;, &quot;11&quot;)&#xA;" field="Customer Age" size="254" type="V_String" />
           </FormulaFields>
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
-          <DefaultAnnotationText>duration (mins) = DateTimeDiff(DateTimeParse([End Time], "%Y-%m-%d %H:%M:%S"), D...</DefaultAnnotationText>
+          <DefaultAnnotationText>Customer Gender = Left([Customer Gender], 1)
+
+Customer Age = Replace([Customer A...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
       <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
     </Node>
-    <Node ToolID="47">
+    <Node ToolID="53">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="762" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\javen\OneDrive - Temasek Polytechnic\Desktop\A-SCHOOL-2023\story\Data\2022 walk-in cleaned.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>2022 walk-in cleaned.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="54">
       <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
-        <Position x="978" y="570" />
+        <Position x="654" y="642" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1083,22 +1063,6 @@ Start Time - Ascending</DefaultAnnotationText>
       <Destination ToolID="35" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="5" Connection="Output" />
-      <Destination ToolID="42" Connection="Right" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="40" Connection="Output" />
-      <Destination ToolID="42" Connection="Left" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="6" Connection="Output" />
-      <Destination ToolID="28" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="7" Connection="Output" />
-      <Destination ToolID="40" Connection="Input" />
-    </Connection>
-    <Connection>
       <Origin ToolID="12" Connection="Output" />
       <Destination ToolID="13" Connection="Input" />
     </Connection>
@@ -1130,17 +1094,17 @@ Start Time - Ascending</DefaultAnnotationText>
       <Origin ToolID="20" Connection="Output" />
       <Destination ToolID="29" Connection="Input" />
     </Connection>
-    <Connection name="#1">
+    <Connection>
       <Origin ToolID="26" Connection="Output" />
-      <Destination ToolID="6" Connection="Input" />
+      <Destination ToolID="28" Connection="Input" />
     </Connection>
-    <Connection name="#2">
+    <Connection>
       <Origin ToolID="27" Connection="Output" />
-      <Destination ToolID="6" Connection="Input" />
+      <Destination ToolID="48" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="28" Connection="Output" />
-      <Destination ToolID="45" Connection="Input" />
+      <Destination ToolID="43" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="29" Connection="Output" />
@@ -1174,33 +1138,33 @@ Start Time - Ascending</DefaultAnnotationText>
       <Origin ToolID="37" Connection="Output" />
       <Destination ToolID="38" Connection="Input" />
     </Connection>
-    <Connection name="#2">
+    <Connection>
       <Origin ToolID="38" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
+      <Destination ToolID="52" Connection="Input" />
     </Connection>
-    <Connection name="#1">
+    <Connection>
       <Origin ToolID="39" Connection="Output" />
-      <Destination ToolID="7" Connection="Input" />
+      <Destination ToolID="40" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="40" Connection="Output" />
-      <Destination ToolID="41" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="42" Connection="Join" />
       <Destination ToolID="47" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="45" Connection="Output" />
-      <Destination ToolID="43" Connection="Input" />
-    </Connection>
-    <Connection>
-      <Origin ToolID="46" Connection="Output" />
+      <Origin ToolID="47" Connection="Output" />
       <Destination ToolID="44" Connection="Input" />
     </Connection>
     <Connection>
-      <Origin ToolID="47" Connection="Output" />
-      <Destination ToolID="46" Connection="Input" />
+      <Origin ToolID="48" Connection="Output" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="52" Connection="Output" />
+      <Destination ToolID="54" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="54" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
