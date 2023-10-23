@@ -197,7 +197,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_cae3fd65df7b994095450c41673c80f0~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_ceb51f607a930a40aae85c7f973c932a~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -369,7 +369,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_ec8333bab25dd94f895b7c0427c66d29~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_afc4a6bb8e5bf74db89f7bda5abd3443~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -397,7 +397,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_e545db0ef4ff5d438b55cc3c986b8833~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_d6b5697f797ee348be5bbc014b82e86b~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -425,7 +425,7 @@ dd/MM/yyyy hh:mm:ss</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_0cb44fa769eba34c8c595b88c843bb4b~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_613fd853ee1b3d418b0bd977460fd098~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -545,7 +545,7 @@ Call Start - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_44b20ec84a91c54e89653191dd22052d~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_7cd746301dc0e746a4e38a0f499f9940~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -573,7 +573,7 @@ Call Start - Ascending</DefaultAnnotationText>
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_10752_84dd5f6b5c69794585262548e1c6a5c4_\Engine_10752_f89c98da509c6a43a46beab9e41b72ba~.yxdb</TempFile>
+          <TempFile>C:\Users\javen\AppData\Local\Temp\Engine_108_3b16262cdfa3824a904e88dcf595001f_\Engine_108_aea3a0f3a767f840b00e4f0927ebd1dd~.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -971,7 +971,7 @@ Customer Age = Replace([Customer A...</DefaultAnnotationText>
     </Node>
     <Node ToolID="53">
       <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
-        <Position x="762" y="642" />
+        <Position x="870" y="642" />
       </GuiSettings>
       <Properties>
         <Configuration>
@@ -1047,6 +1047,25 @@ Start Time - Ascending</DefaultAnnotationText>
         <Annotation DisplayMode="0">
           <Name />
           <DefaultAnnotationText>Customer ID = IF Left([Customer ID], 1) != 'C' THEN 'C' + [Customer ID] ELSE [Cu...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="59">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="762" y="642" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF Length([Branch ID]) = 1 THEN 'B00' + [Branch ID] &#xA;ELSEIF Length([Branch ID]) = 2 THEN 'B0' + [Branch ID] &#xA;ELSE [Branch ID] ENDIF&#xA;" field="Branch ID" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Branch ID = IF Length([Branch ID]) = 1 THEN 'B00' + [Branch ID] 
+ELSEIF Length([...</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
       </Properties>
@@ -1188,7 +1207,7 @@ Start Time - Ascending</DefaultAnnotationText>
     </Connection>
     <Connection>
       <Origin ToolID="54" Connection="Output" />
-      <Destination ToolID="53" Connection="Input" />
+      <Destination ToolID="59" Connection="Input" />
     </Connection>
     <Connection>
       <Origin ToolID="55" Connection="Output" />
@@ -1197,6 +1216,10 @@ Start Time - Ascending</DefaultAnnotationText>
     <Connection>
       <Origin ToolID="56" Connection="Output" />
       <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="59" Connection="Output" />
+      <Destination ToolID="53" Connection="Input" />
     </Connection>
   </Connections>
   <Properties>
