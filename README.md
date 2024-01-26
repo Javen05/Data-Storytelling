@@ -82,7 +82,7 @@ Task 5 : Tableau Story
 -	Is there a hook? Does it generate a sense of urgency? Is there a call for action?
 
 ### IDL Group Project:
-- Collaborate with students in Diploma in Pharmaceutical Science to integrate data visualization and storytelling skills to explain factors that led to failure of tablet batch.
+- Collaborated with students from Diploma in Pharmaceutical Science where me and my teammates had to integrate data visualization and storytelling to explain what led to the failure of tablet batch.
 
 ### Files:
 - Data.zip (raw data provided)
