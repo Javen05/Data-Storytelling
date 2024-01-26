@@ -81,12 +81,18 @@ Task 5 : Tableau Story
 -	Are the recommendations relevant to the problem statement?
 -	Is there a hook? Does it generate a sense of urgency? Is there a call for action?
 
+### IDL Group Project:
+- Collaborate with students in Diploma in Pharmaceutical Science to integrate data visualization and storytelling skills to explain factors that led to failure of tablet batch.
+
 ### Files:
 - Data.zip (raw data provided)
 - Data Cleaning.yxmd (my workflow to clean data)
 - Cleaned Data.zip (cleaned raw data using workflow)
 
 - OCBC Presentation (Slides presentation for OCBC internship)
+
+### Mistakes in assignment 1:
+- Composition of Pie chart for Takeaway 1 is invalid as I mistakenly compute it by SUM instead of COUNT.
 
 Part 1:
 > SD1_ + Assignment.twbx
