@@ -5,7 +5,7 @@ You are to explore the call log and walk-in records dataset to derive insights a
 
 You will apply data visualisation techniques and data storytelling techniques to effectively convey the insights derived from your data to the stakeholders.
 
-Part 1 – Data Visualisation
+### Part 1 – Data Visualisation
 
 Task 1 : Background and Business Requirement
 •	Provide a context for the background and business requirements.
@@ -32,8 +32,9 @@ Task 3 : Data Exploration
 -	Explanation of the purpose of each chart (consider composition, comparison, relationship, distribution).
 -	Explanation of the relationships and analytical interaction.
 -	How in-depth your analysis is and how sound your interpretation is.
- 
-Part 2 – Data Storytelling
+
+
+### Part 2 – Data Storytelling
 
 Task 1 : Visual Cues
 •	Continuing from the data exploration you have done in Part 1 – Data Visualisation, show at least TWO enhancements to your visuals. Considering the good practices when using some of these visual cues: 
