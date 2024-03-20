@@ -51,3 +51,11 @@ Task 5 : Tableau Story
 
 ### Mistakes in Part 1:
 - Composition of Pie chart for Takeaway 1 is invalid as I mistakenly compute it by SUM instead of COUNT.
+  
+Actual composition:
+> ![image](https://github.com/Javen05/Data-Storytelling/assets/107395637/1e7e2daa-d371-40c3-8d1f-613f1a296458)
+
+Skewed composition when rating value is summed with its count:
+> ![image](https://github.com/Javen05/Data-Storytelling/assets/107395637/b0ca3915-2585-4e9e-a90c-d874e930324a)
+
+
