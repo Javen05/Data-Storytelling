@@ -49,5 +49,5 @@ Task 5 : Tableau Story
 •	Explain the considerations involved when creating the Storyboard.
 
 
-### Mistakes in assignment 1:
+### Mistakes in Part 1:
 - Composition of Pie chart for Takeaway 1 is invalid as I mistakenly compute it by SUM instead of COUNT.
